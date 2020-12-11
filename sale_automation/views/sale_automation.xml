@@ -44,7 +44,7 @@
                             <button type="object" name="runSA" string="Run" class="oe_highlight" custom="click" attrs="{'invisible': [('status', '!=', 'New')]}"/>
                             <button type="object" name="testSA" string="Test Import" class="oe_highlight" custom="click" attrs="{'invisible': [('status', '!=', 'New')]}"/>
                             <button type="object" name="checkSA" string="Check FInal" class="oe_highlight" custom="click" attrs="{'invisible': [('status', '!=', 'Partial Success')]}"/>
-                            <field name="status" widget="statusbar" attrs="{'clickable':[('true')]}"/>
+                            <field name="status" widget="statusbar" clickable="True"/>
                         </header>
                         <group>
                             <group string="Sale Automation Details">
