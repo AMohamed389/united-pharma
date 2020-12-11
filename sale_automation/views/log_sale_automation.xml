@@ -40,7 +40,7 @@
                             <header>
                                 <button type="object" name="reRunSALog"
                                     string="Re-Run" class="oe_highlight" custom="click" attrs="{'invisible': [('status', '=', 'Success')]}"/>
-                                <field name="status" widget="statusbar" attrs="{'clickable':[('true')]}"/>
+                                <field name="status" widget="statusbar" clickable="True"/>
                             </header>
                         </div>
                         <group>
